@@ -1,0 +1,14 @@
+{
+  "name": "@komejs/docs",
+  "version": "1.0.0",
+  "description": "基于@komejs/ui的组件库文档",
+  "keywords": [],
+  "devDependencies": {
+    "vitepress": "^1.2.2"
+  },
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  }
+}
