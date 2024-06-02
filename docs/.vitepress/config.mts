@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "@komejs/ui",
   description: "基于@komejs/ui的组件库文档",
+  base: "/ui/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
