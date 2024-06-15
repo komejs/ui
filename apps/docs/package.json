@@ -1,5 +1,5 @@
 {
-  "name": "docs",
+  "name": "kome-docs",
   "version": "1.0.0",
   "devDependencies": {
     "kome-ui": "workspace:*",
