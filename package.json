@@ -1,7 +1,11 @@
 {
-  "name": "komejs",
-  "version": "1.0.0",
-  "keywords": [],
-  "author": "fengwang",
-  "license": "MIT"
+  "name": "root",
+  "private": true,
+  "packageManager": "pnpm@8.15.6",
+  "scripts": {
+    "dev": "turbo run dev"
+  },
+  "devDependencies": {
+    "turbo": "^2.0.4"
+  }
 }

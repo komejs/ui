@@ -3,5 +3,5 @@ node_modules
 dist
 cache
 .temp
+.turbo
 .DS_Store
-node_modules
