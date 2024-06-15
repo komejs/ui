@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "keywords": [],
   "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "./src/index.js",
   "exports": {
     ".": "./src/index.js"
