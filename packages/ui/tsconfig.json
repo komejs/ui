@@ -1,5 +1,5 @@
 {
-  "extends": "kome-tsconfig/tsconfig.json",
+  "extends": "kome-tsconfig/tsconfig.base.json",
   "compilerOptions": {
     "target": "ESNext",
     "module": "ESNext",

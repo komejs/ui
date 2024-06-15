@@ -1,5 +1,11 @@
 {
   "name": "kome-tailwind",
   "version": "1.0.0",
-  "private": true
+  "private": true,
+  "exports": {
+    ".": "./tailwind.config.ts"
+  },
+  "devDependencies": {
+    "kome-tsconfig": "workspace:*"
+  }
 }
