@@ -1,1 +1,3 @@
-console.log("komejs-ui");
+export default function (params) {
+  console.log("komejs-ui", "params", params);
+}
