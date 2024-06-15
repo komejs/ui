@@ -1,9 +1,8 @@
 {
-  "name": "@komejs/docs",
+  "name": "docs",
   "version": "1.0.0",
-  "description": "基于@komejs/ui的组件库文档",
-  "keywords": [],
   "devDependencies": {
+    "kome-ui": "workspace:*",
     "vitepress": "^1.2.2"
   },
   "scripts": {

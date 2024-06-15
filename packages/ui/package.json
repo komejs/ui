@@ -1,7 +1,10 @@
 {
-  "name": "@komejs/ui",
+  "name": "kome-ui",
   "version": "1.0.0",
-  "description": "基于vue3 + typescript 的可配置化的 UI 组件库",
   "keywords": [],
-  "main": "./src/index.js"
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  }
 }
