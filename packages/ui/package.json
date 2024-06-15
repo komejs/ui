@@ -12,13 +12,15 @@
     "require": "./dist/index.umd.cjs"
   },
   "scripts": {
-    "build": "vue-tsc && vite build"
+    "build": "vue-tsc && vite build && npm run style",
+    "style": "tailwindcss -i ./src/index.css -o ./dist/index.css"
   },
   "peerDependencies": {
     "vue": "^3.4.21"
   },
   "devDependencies": {
     "kome-tsconfig": "workspace:*",
+    "kome-tailwind": "workspace:*",
     "@vitejs/plugin-vue": "^5.0.4",
     "vite": "^5.2.0",
     "vue-tsc": "^2.0.6"

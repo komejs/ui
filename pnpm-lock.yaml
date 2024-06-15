@@ -27,7 +27,11 @@ importers:
         specifier: ^1.2.2
         version: 1.2.3(@algolia/client-search@4.23.3)(postcss@8.4.38)(search-insights@2.14.0)(typescript@5.4.5)
 
+  apps/play: {}
+
   apps/test: {}
+
+  packages/cli: {}
 
   packages/eslint: {}
 
@@ -48,6 +52,9 @@ importers:
       '@vitejs/plugin-vue':
         specifier: ^5.0.4
         version: 5.0.5(vite@5.3.1)(vue@3.4.29)
+      kome-tailwind:
+        specifier: workspace:*
+        version: link:../tailwind
       kome-tsconfig:
         specifier: workspace:*
         version: link:../tsconfig
