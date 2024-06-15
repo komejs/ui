@@ -38,18 +38,18 @@ jobs:
 
       - name: Install Dependencies
         run: pnpm install
-        working-directory: ./docs
+        working-directory: ./apps/docs
     
       - name: Build Static Site
         run: pnpm run build
-        working-directory: ./docs
+        working-directory: ./apps/docs
 
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: './docs/.vitepress/dist'
+          path: './apps/docs/.vitepress/dist'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
