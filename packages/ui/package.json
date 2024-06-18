@@ -19,8 +19,6 @@
     "vue": "^3.4.21"
   },
   "devDependencies": {
-    "kome-tsconfig": "workspace:*",
-    "kome-tailwind": "workspace:*",
     "@vitejs/plugin-vue": "^5.0.4",
     "vite": "^5.2.0",
     "vue-tsc": "^2.0.6"
