@@ -7,6 +7,11 @@
     "build": "turbo run build"
   },
   "devDependencies": {
+    "@types/node": "^20.14.9",
+    "autoprefixer": "^10.4.19",
+    "rollup-plugin-copy": "^3.5.0",
+    "rollup-plugin-delete": "^2.0.0",
+    "rollup-plugin-postcss": "^4.0.2",
     "tailwindcss": "^3.4.4",
     "turbo": "^2.0.4",
     "typescript": "^5.4.5"

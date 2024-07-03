@@ -5,12 +5,14 @@
     "module": "ESNext",
     "lib": ["ESNext", "DOM"],
     "moduleResolution": "Bundler",
-    "sourceMap": true,
+    "declarationMap": false,
+    "sourceMap": false,
     "noEmit": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noImplicitReturns": true,
-    "useDefineForClassFields": true
+    "useDefineForClassFields": true,
   },
-  "exclude": ["dist", "node_modules"]
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "types/**/*.d.ts",],
+  "exclude": ["dist", "es", "lib", "node_modules"]
 }
