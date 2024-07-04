@@ -54,7 +54,7 @@ export default defineConfig({
       entry: "./src/index.ts",
       name: "kome-ui",
       fileName: "index",
-      formats: ["es", "umd", "cjs"],
+      formats: ["es", "cjs"],
     },
   },
 });
