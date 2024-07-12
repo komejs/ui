@@ -2,7 +2,7 @@
   "name": "kome-docs",
   "version": "1.0.0",
   "devDependencies": {
-    "kome-ui": "workspace:*",
+    "@komejs/kome-ui": "workspace:*",
     "vitepress": "^1.2.2"
   },
   "scripts": {
