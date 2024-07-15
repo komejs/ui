@@ -38,7 +38,7 @@ importers:
 
   apps/docs:
     devDependencies:
-      kome-ui:
+      '@komejs/kome-ui':
         specifier: workspace:*
         version: link:../../packages/core
       vitepress:

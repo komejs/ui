@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "devDependencies": {
-    "kome-ui": "workspace:*",
+    "@komejs/kome-ui": "workspace:*",
     "vitepress": "^1.2.2"
   },
   "scripts": {
