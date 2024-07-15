@@ -1,8 +1,8 @@
 name: ci-publish
 
 on:
-  release:
-    types: [published]
+  push:
+    branches: ['main']
     
 jobs:
   build:
